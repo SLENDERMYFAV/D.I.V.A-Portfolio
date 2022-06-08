@@ -25,14 +25,14 @@
 
 }
 
-.FirstHead .mainHead .navbar-nav .active a{
+.header-area .main-menu .navbar-nav .active a{
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.FirstHead .mainHead .navbar-nav a:hover{
+.header-area .main-menu .navbar-nav a:hover{
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
