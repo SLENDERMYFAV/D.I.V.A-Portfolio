@@ -4,6 +4,11 @@
 /* css variables */
 @import url(../partials/variables.css);
 
+/* global variables */
+@import url(../partials/global.css);
+
+/* Global */
+
 /* Start Navigation */
 
 
@@ -56,7 +61,8 @@
     background: black;
     display: inline-block;
     margin-left: 5%;
-    transform: translateY(-80px);
+    transform:translateY(800%);
+
 }
 
 .site-main .site-banner .site-title h1{
@@ -70,8 +76,13 @@
 .site-main .site-banner .banner-image > img{
     padding: 7rem 0;
     width: 90rem;
-    margin-left: 70%;
+    /* to move to the coordinates x and y */
+    transform:translate(700px,-400px)
+
 }
 
+.title-text{
+    font: normal bold 40px/64px var(--roboto);
+} 
 
 /* End Banner Area */
