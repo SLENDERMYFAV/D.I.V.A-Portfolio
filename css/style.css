@@ -1,11 +1,11 @@
 /* importo Font's from font.css */
-@import url(../css/font.css);
+@import url(./font.css);
 
 /* css variables */
-@import url(../partials/variables.css);
+@import url(./partials/variables.css);
 
 /* global variables */
-@import url(../partials/global.css);
+@import url(./partials/global.css);
 
 /* Global */
 
@@ -81,7 +81,7 @@
 
 .site-main .site-banner .banner-image > img{
     padding: 7rem 0;
-    width: 90rem;
+    width: 40rem;
     /* to move to the coordinates x and y */
     transform:translate(700px,-400px)
     
