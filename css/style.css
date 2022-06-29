@@ -13,7 +13,12 @@
 
 
 .header_area .main-menu .navbar .navbar-brand{
-    padding: 0 2rem 0 5rem;
+    /* padding: 0 2rem 0 -10rem; */
+    padding: 0 2rem 0 -10rem;
+}
+
+.navbar-brand {
+    transform:translateX(-200px);
 }
 
 .header_area .main-menu .navbar{
@@ -27,14 +32,14 @@
     color: var(--title-color);
 }
 
-.header-area .main-menu .navbar-nav .active a{
+.header_area .main-menu .navbar-nav .active a{
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.header-area .main-menu .navbar-nav a:hover{
+.header_area .main-menu .navbar-nav a:hover{
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -81,7 +86,7 @@
 
 .site-main .site-banner .banner-image > img{
     padding: 7rem 0;
-    width: 40rem;
+    width: 90rem;
     /* to move to the coordinates x and y */
     transform:translate(700px,-400px)
     
@@ -93,3 +98,6 @@
 } 
 
 /* End Banner Area */
+
+
+/* Start About Area */ 
