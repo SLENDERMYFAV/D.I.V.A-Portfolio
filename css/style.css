@@ -11,7 +11,9 @@
 
 /* Start Navigation */
 
-
+html{
+  scroll-behavior: smooth;
+}
 .header_area .main-menu .navbar .navbar-brand{
     /* padding: 0 2rem 0 -10rem; */
     padding: 0 2rem 0 -10rem;
@@ -123,12 +125,18 @@
     padding-bottom: 20rem;
   }
 
+  .site-main .brand-area .first-row .col-lg-4{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* padding: 0 0 0 0; */
+  }
+
   .site-main .brand-area .first-row .col-lg-4> .single-brand {
     border: 1px solid var(--border-color);
     text-align: center;
     padding: 30 30 30 30;
     /* margin: 9rem 0; */
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
     width: 180px;
     height: 100px;
     cursor: pointer;
